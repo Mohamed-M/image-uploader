@@ -1,0 +1,16 @@
+.photos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: flex-start;
+}
+
+.photo {
+  width: 100%;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+h1.display-4 {
+  font-size: 2rem;
+}
