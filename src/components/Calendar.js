@@ -6,7 +6,8 @@ import './Calendar.scss';
 class Calendar extends Component {
 
   formatTime = () => {
-    let newTimeStamp = new Date();
+    let timeStamp = 1559153538243;
+    let newTimeStamp = new Date(timeStamp);
 
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     let dayOfTheWeek = days[newTimeStamp.getDay()];
