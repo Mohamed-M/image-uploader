@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/file-transfers">
+          <Route path="/file-transfers">
             <FileTransfers />
           </Route>
           <Route path="/photos">
