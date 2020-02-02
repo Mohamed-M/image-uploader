@@ -17,7 +17,6 @@ class Photos extends Component {
       .then(res => res.json())
       .then(data => {
         this.setState({ photos: data.results })
-        console.log(this.state.photos)
       })
       .catch((error) => console.log(error))
   }
@@ -35,9 +34,9 @@ class Photos extends Component {
           <img className="card-img-top" src={photo.urls.small} alt="Card image cap" />
           <div className="card-body">
             <p className="card-text"><strong>Title: </strong>{photo.description ? `${photo.description}` : `${photo.alt_description}`}</p>
-            <span class="badge badge-pill badge-dark mr-1">{photo.tags[0].title}</span>
-            <span class="badge badge-pill badge-dark mr-1">{photo.tags[1].title}</span>
-            <span class="badge badge-pill badge-dark">{photo.tags[2].title}</span>
+            <span className="badge badge-pill badge-dark mr-1">{photo.tags[0].title}</span>
+            <span className="badge badge-pill badge-dark mr-1">{photo.tags[1].title}</span>
+            <span className="badge badge-pill badge-dark">{photo.tags[2].title}</span>
           </div>
         </div>
       )

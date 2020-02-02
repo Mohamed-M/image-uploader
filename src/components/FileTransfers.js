@@ -128,7 +128,7 @@ class FileTransfers extends Component {
   render() {
     return (
       <div className="container">
-        <div className="jumbotron mt-4">
+        <div className="jumbotron bg-white mt-4">
           <h1 className="display-4 col-8 offset-2 text-center mb-3">File Transfers</h1>
           <canvas className="col-12" id="myChart"></canvas>
         </div>

@@ -17,16 +17,16 @@ function App() {
       <React.Fragment>
         <ScrollToTop>
           <Header />
-          <Route exact path="/">
+          <Route exact path="/image-uploader/">
             <Home />
           </Route>
-          <Route path="/file-transfers">
+          <Route path="/image-uploader/file-transfers">
             <FileTransfers />
           </Route>
-          <Route path="/photos">
+          <Route path="/image-uploader/photos">
             <Photos />
           </Route>
-          <Route path="/calendar">
+          <Route path="/image-uploader/calendar">
             <Calendar />
           </Route>
         </ScrollToTop>

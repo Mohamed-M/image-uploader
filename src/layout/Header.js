@@ -9,18 +9,18 @@ function Header() {
     <nav className="site-nav family-sans navbar navbar-expand bg-success navbar-dark higher">
       <div className="container-fluid">
         <div className="navbar-brand">
-          <Link to ="/" className="app-title text-white font-weight-light text-uppercase">
+          <Link to ="/image-uploader/" className="app-title text-white font-weight-light text-uppercase">
             <IoIosImages className="mr-3" /> Image Uploader
           </Link>
         </div>
         <div className="navbar ml-auto">
-          <Link className="nav-item text-white mr-4" to="/file-transfers">
+          <Link className="nav-item text-white mr-4" to="/image-uploader/file-transfers">
             File Transfers
           </Link>
-          <Link className="nav-item text-white mr-4" to="/photos">
+          <Link className="nav-item text-white mr-4" to="/image-uploader/photos">
             Photos
           </Link>
-          <Link className="nav-item text-white mr-4" to="/calendar">
+          <Link className="nav-item text-white mr-4" to="/image-uploader/calendar">
             Calender
           </Link>
         </div>
